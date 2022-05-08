@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="cheat-sheet.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet"> 
+    <title>Cheat Sheet</title>
+</head>
+<body>
+    <h1>Web Cheat Sheet</h1>                                        <!-- // Table Section \\ -->
+    <h2>Tables</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Tag</th>
+                <th>Name</th>
+                <th>Destription</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>&lt;Table&gt;</td>
+                <td>Table</td>
+                <td>The wrapper element for all HTML tables.</td>
+            </tr>
+            <tr>
+                <td>&lt;thead&gt;</td>
+                <td>Table Head</td>
+                <td>The set of rows defining the column headers in a table.</td>
+              </tr>
+              <tr>
+                <td>&lt;tbody&gt;</td>
+                <td>Table Body</td>
+                <td>The set of rows containing actual table data.</td>
+              </tr>
+              <tr>
+                <td>&lt;tr&gt;</td>
+                <td>Table Row</td>
+                <td>The table row container.</td>
+              </tr>
+              <tr>
+                <td>&lt;td&gt;</td>
+                <td>Table Data</td>
+                <td>The table row container.</td>
+              </tr>
+              <tr>
+                <td>&lt;tfoot&gt;</td>
+                <td>Table Foot</td>
+                <td>The set of rows defining the footer in a table.</td>
+              </tr>
+        </tbody>
+    </table>
+    <h2>Table Attributes</h2>
+    <table>
+      <thead>
+        <th>Attribute</th>
+        <th>Name</th>
+        <th>Description</th>
+      </thead>
+      <tbody>
+        <tr>
+            <td>colspan</td> 
+            <td>Column Span</td>
+            <td>Defines how many columns a td element should span.</td>
+          </tr>
+        <tr>
+          <td>rowspan</td>
+          <td>Row Span</td>
+          <td>Defines how many rows a td element should span.</td>
+        </tr>
+      </tbody>
+    </table>
+                                                        <!-- // Divs and CSS Section \\ -->
+        <h2>Divs and CSS</h2>
+        <div class="inline">
+            This is a div with a inline display. With inline display there are <b>NO</b> line breaks, width and height can <b>NOT</b> be set, and margins/paddings are <b>NOT</b> respected.
+        </div>
+        <div class="inline2">
+            Another div with inline display. This has css rules for background-color, color, and font-family.
+        </div>
+        <div class="blockContainer">  
+          <div class="inline-block">
+              This is a div with a inline-block display. With inline-block display there are <b>NO</b> line breaks, width and height <b>CAN</b> be set,and margins/paddings <b>ARE</b> respected.
+          </div>
+          <div class="inline-block2">
+            <div class="inside">
+                Another div with inline-block display. This has css rules for background-image, another div inside with background-color rgba, and border-radius.
+            </div>
+          </div>
+          <div class="block">
+              This is a div with a block display. With block display there <b>ARE</b> line breaks, width and height <b>CAN</b> be set,and margins/paddings <b>ARE</b> respected.
+          </div>
+          <div class="block2">
+              Another div with block display. This has css rules for font-family using a google font, background-color, and border-radius.
+          </div>
+        </div>
+</body>
+</html>
